@@ -1,0 +1,25 @@
+{
+  "name": "2048-app",
+  "version": "1.0.0",
+  "description": "2048 electron app",
+  "main": "main.js",
+  "build": {
+    "appId": "2048",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.png"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^13.1.0",
+    "electron-builder": "^22.10.5"
+  }
+}
